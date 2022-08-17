@@ -17,8 +17,8 @@ from json.decoder import JSONDecodeError
 username = 'crnchtzntn@gmail.com'
 scope = 'user-read-private user-read-playback-state user-modify-playback-state'
 
-os.environ['SPOTIPY_CLIENT_ID'] = 'b8b31f8cf6e94d1e868de4f8be23f5a3'
-os.environ['SPOTIPY_CLIENT_SECRET'] = '9bb27c4862c74d9f89b168fca2cbaa7e'
+os.environ['SPOTIPY_CLIENT_ID'] = ''
+os.environ['SPOTIPY_CLIENT_SECRET'] = ''
 os.environ['SPOTIPY_REDIRECT_URI'] = 'https://www.google.nl/'
 
 try:
